@@ -1,0 +1,32 @@
+{
+  "name": "mocha-demo",
+  "version": "1.0.0",
+  "description": "mocha demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-es6": "mocha --repotter spec test --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingye/mocha-demo.git"
+  },
+  "keywords": [
+    "mocha",
+    "demo"
+  ],
+  "author": "yingye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yingye/mocha-demo/issues"
+  },
+  "homepage": "https://github.com/yingye/mocha-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

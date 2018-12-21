@@ -1,5 +1,7 @@
 # mocha-demo
 
+[![Build Status](https://travis-ci.org/yingye/mocha-demo.svg?branch=master)](https://github.com/yingye/mocha-demo)
+
 ## Use
 
 第一步，克隆本项目

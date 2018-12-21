@@ -1,6 +1,6 @@
 var expect = require('chai').expect
 
-describe('超时函数测试', function (done) {
+describe('超时函数测试', function () {
   it('测试在 3000ms 后结束', function (done) {
     var x = true
     function next () {

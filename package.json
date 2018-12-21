@@ -4,8 +4,7 @@
   "description": "mocha demo",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive",
-    "test-es6": "mocha test --require @babel/register"
+    "test": "mocha --timeout 60000 --recursive --require @babel/register"
   },
   "repository": {
     "type": "git",
@@ -27,6 +26,7 @@
     "@babel/preset-env": "^7.2.0",
     "@babel/register": "^7.0.0",
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "node-fetch": "^2.3.0"
   }
 }

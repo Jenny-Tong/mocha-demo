@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "test-es6": "mocha --repotter spec test --require @babel/register"
+    "test-es6": "mocha test --require @babel/register"
   },
   "repository": {
     "type": "git",
